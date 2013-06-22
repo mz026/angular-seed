@@ -3,9 +3,9 @@
 /* Controllers */
 
 angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
-
-  }])
-  .controller('MyCtrl2', [function() {
-
-  }]);
+  controller('MusiciansController', function($scope, $http) {
+    $http.get("mocks/musicians.json")
+      .success(function(response) {
+        $scope.musicians = response.musicians;
+      });
+  });

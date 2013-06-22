@@ -1,0 +1,16 @@
+{
+  "musicians": [
+    {
+      "name": "James Brown",
+      "style": "funk"
+    },
+    {
+      "name": "Travis Barker",
+      "style": "punk"
+    },
+    {
+      "name": "Carter Beauford",
+      "style": "fushion"
+    }
+  ]
+}
